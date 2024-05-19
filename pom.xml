@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
   <groupId>org.springframework.boot</groupId>
-  <artifactId>apring-boot-starter-parent</artifactId>
+  <artifactId>spring-boot-starter-parent</artifactId>
   <version>3.1.5</version>
   <relativePath/>
   </parent>
@@ -14,8 +14,8 @@
   <description>Simple SB project for student magement for an educational institution,</description>
   
  <modules>
-	 <module>module1</module>
-	 <module>module2</module>
+	 <module>teacher</module>
+	 <module>student</module>
  </modules>
  <properties>
 	 <java.version>17</java.version>
@@ -52,10 +52,6 @@
 		 <groupId>org.springdoc</groupId>
 		 <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 		 <version>2.3.0</version>
-	 </dependency>
-	 <dependency>
-		 <groupId>org.projectlombok</groupId>
-		 <artifactId>lombok</artifactId>
 	 </dependency>
 	 
  </dependencies>
